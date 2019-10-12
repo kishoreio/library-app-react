@@ -25,6 +25,7 @@ class Cart extends Component{
     }
 
     render(){
+
         const lists = this.props.book.filter(l => {
             return l.id === this.state.cart[0] || l.id === this.state.cart[1] || l.id === this.state.cart[2]
         })
@@ -35,7 +36,6 @@ class Cart extends Component{
                     <Table responsive>
                         <tbody>
                             <tr>
-                            <td>{li.id}</td>
                             <td><img src={li.img} width="70px" height="120px" alt="book"/></td>
                             <td>{li.title}</td>
                             <td>{li.author}</td>
