@@ -21,7 +21,7 @@ class NavBar extends Component{
             <Navbar bg="primary" variant="dark">
                 <img
                 alt="logo"
-                src="https://cdn0.iconfinder.com/data/icons/cosmo-culture/40/books_1-512.png"
+                src="https://i.pinimg.com/originals/2c/fc/93/2cfc93d7665f5d7728782700e50596e3.png"
                 width="30"
                 height="30"
                 className="d-inline-block align-top" />
