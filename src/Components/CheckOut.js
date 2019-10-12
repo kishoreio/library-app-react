@@ -23,7 +23,7 @@ class CheckOut extends Component{
     render(){
         return(
             <div>
-                <NavLink to="/"><Button style={{float:"right"}} variant="outline-primary" onClick={() => {this.finalCart(this.props.cart,this.state.book)}}>Proceed To CheckOut</Button></NavLink>
+                <NavLink to="/library-react-app/"><Button style={{float:"right"}} variant="outline-primary" onClick={() => {this.finalCart(this.props.cart,this.state.book)}}>Proceed To CheckOut</Button></NavLink>
             </div>
         )
     }

@@ -25,7 +25,7 @@ class NavBar extends Component{
                 width="30"
                 height="30"
                 className="d-inline-block align-top" />
-                <NavLink to="/"><Navbar.Brand>Library</Navbar.Brand></NavLink>
+                <NavLink to="/library-react-app/"><Navbar.Brand>Library</Navbar.Brand></NavLink>
                 <Nav className="mr-auto"></Nav>
                 <Form inline>
                     <FormControl type="text" placeholder="Search" className="mr-sm-2" onChange={this.onChangeEvent}/>
