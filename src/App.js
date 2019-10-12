@@ -57,7 +57,7 @@ class App extends Component{
       <Router>
       <div>
         <NavBar cart={this.state.cart} filterBooks={this.filterBooks}/>
-        <Route exact path="/" render={() => (<Books book={this.state.books} addToCart={this.addToCart} searched={this.state.search} />)} />
+        <Route exact path="/library-react-app/" render={() => (<Books book={this.state.books} addToCart={this.addToCart} searched={this.state.search} />)} />
         <Route path="/cart" render={() => (<Cart cart={this.state.cart} book={this.state.books} updateCart={this.updateCart} resetCartState={this.resetCartState} />)}/>
       </div>
       </Router>
