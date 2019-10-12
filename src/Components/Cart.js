@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import {
-    Button,
-    ListGroup,
-    ListGroupItem
-} from 'reactstrap';
-import {Alert} from 'react-bootstrap';
+import { Button } from 'reactstrap';
+import {Alert, Table} from 'react-bootstrap';
 import CheckOut from './CheckOut';
 
 class Cart extends Component{
@@ -36,13 +32,19 @@ class Cart extends Component{
         const result = lists.map(li => {
             return(
                 <div key={li.id}>
-                    <ListGroup>
-                        <ListGroupItem>
-                            <img src={li.img} width="70px" height="120px" alt="book"/>
-                            {li.title} | {li.author} | {li.genre} | {li.yop}
-                            <Button style={{float: "right"}} onClick={() => this.removeFromCart(li.id)}>Remove</Button>
-                        </ListGroupItem>
-                    </ListGroup>
+                    <Table responsive>
+                        <tbody>
+                            <tr>
+                            <td>{li.id}</td>
+                            <td><img src={li.img} width="70px" height="120px" alt="book"/></td>
+                            <td>{li.title}</td>
+                            <td>{li.author}</td>
+                            <td>{li.genre}</td>
+                            <td>{li.yop}</td>
+                            <td><Button style={{float: "right"}} onClick={() => this.removeFromCart(li.id)}>Remove</Button></td>
+                            </tr>
+                        </tbody>
+                    </Table>
                 </div>
             )
         })
