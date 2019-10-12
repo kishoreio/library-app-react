@@ -1,0 +1,94 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": " Learning React",
+      "author": "Alex Banks",
+      "genre": "Web Framework",
+      "yop": "2019",
+      "availability": true,
+      "img": "https://i.imgur.com/Ea0ueae.jpg"    
+    },
+    {
+      "id": 2,
+      "title": "Eloquent Javascript",
+      "author": "Marijn Haverbeke",
+      "genre": "Programming",
+      "yop": "1999",
+      "availability": true,
+      "img": "https://i.imgur.com/tVHC1gd.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Programming Python",
+      "author": "Mark Lutz",
+      "genre": "Programming",
+      "yop": "2005",
+      "availability": true,
+      "img": "https://i.imgur.com/iHukJgK.jpg"
+    },
+    {
+      "id": 4,
+      "title": "One Indian Girl",
+      "author": "Chetan Bhagat",
+      "genre": "Romance",
+      "yop": "2012",
+      "availability": true,
+      "img": "https://i.imgur.com/T7qv4rf.jpg"
+    },
+    {
+      "id": 5,
+      "title": "The World of Abstract Art",
+      "author": "Emily Robbins",
+      "genre": "Art",
+      "yop": "2002",
+      "availability": true,
+      "img": "https://i.imgur.com/rZcSMIf.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Fred the lonely monster",
+      "author": "Anne Lowinsky",
+      "genre": "Comics",
+      "yop": "2016",
+      "availability": true,
+      "img": "https://i.imgur.com/FX3IWl7.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Un Appart De Reve",
+      "author": "Rorem Dambre",
+      "genre": "Comics",
+      "yop": "2014",
+      "availability": true,
+      "img": "https://i.imgur.com/blFU3vc.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Mastering Node.js",
+      "author": "Kevin Fraaborg",
+      "genre": "Web Framework",
+      "yop": "2010",
+      "availability": true,
+      "img": "https://i.imgur.com/QEuIG4q.jpg"
+    },
+    {
+      "id": 9,
+      "title": "There There",
+      "author": "Tommy Orange",
+      "genre": "Literature",
+      "yop": "2018",
+      "availability": true,
+      "img": "https://i.imgur.com/eCFNWwu.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Enchantment, The Art of Changing Heart, Mind and Actions ",
+      "author": "Guy Kawasaki",
+      "genre": "Art",
+      "yop": "1996",
+      "availability": true,
+      "img": "https://i.imgur.com/KSJPlqM.jpg"
+    }
+  ]
+}
