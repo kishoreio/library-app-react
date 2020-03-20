@@ -38,7 +38,7 @@ class Books extends Component{
                             {(book.availability === true) ? <Button color="primary" onClick={() => this.props.addToCart(book.id)}>Add To Cart</Button> : null}
                         </Media>
                     </Media>
-                    <hr style={{border: "1px dashed black"}}/>
+                    <hr style={{border: "2px dashed black"}}/>
                 </div>
             )
         })
